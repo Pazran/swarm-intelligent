@@ -43,12 +43,3 @@ Run the simulation:
 ```bash
 python boids-flock-simulation.py
 ```
-
-## Project Structure
-- `boids-flock-simulation.py` - Main simulation script
-- `demo.gif` - Demo animation (gitignored)
-- `venv/` - Virtual environment (gitignored)
-- `.gitignore` - Git ignore patterns
-
-## License
-MIT License
