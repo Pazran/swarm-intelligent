@@ -12,7 +12,7 @@ A project exploring intelligent swarm behavior simulation using Python and Pygam
 - Interactive particle-based movement patterns
 
 ## Requirements
-- Python 3.7+
+- Python 3.12+
 - pygame
 - numpy (optional, for advanced calculations)
 
