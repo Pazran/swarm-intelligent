@@ -4,7 +4,7 @@ import sys
 
 # Setup environment dimensions
 WIDTH, HEIGHT = 1000, 700
-NUM_BOIDS = 80
+NUM_BOIDS = 200
 
 class Boid:
     def __init__(self):
