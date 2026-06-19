@@ -4,7 +4,11 @@
 
 A project exploring intelligent swarm behavior simulation using Python and Pygame.
 
+### Boids Flocking Simulation
 ![Boids Flocking Simulation](media/boid-flock-simulation.gif)
+
+### Ant Colony Simulation
+![Ant Colony Simulation](media/ant-colony-simulation.gif)
 
 ## Features
 - Boids flocking simulation algorithm
