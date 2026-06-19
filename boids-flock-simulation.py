@@ -3,7 +3,7 @@ import random
 import sys
 
 # Setup environment dimensions
-WIDTH, HEIGHT = 1000, 700
+WIDTH, HEIGHT = 1270, 720
 NUM_BOIDS = 200
 
 class Boid:
