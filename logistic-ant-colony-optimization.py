@@ -343,6 +343,29 @@ def main():
         score_surf = title_font.render(score_text, True, (240, 190, 60))
         screen.blit(score_surf, (ui_left, HEIGHT - 35))
 
+        # MAP LEGENDS
+        legend_y = HEIGHT - 35
+        
+        # 1. Depot Indicator
+        pygame.draw.circle(screen, (0, 110, 255), (40, legend_y + 7), 8)
+        depot_lbl = font.render("HQ / Depot", True, (200, 210, 230))
+        screen.blit(depot_lbl, (55, legend_y))
+        
+        # 2. House Indicator
+        pygame.draw.circle(screen, (230, 90, 40), (160, legend_y + 7), 5)
+        house_lbl = font.render("Delivery House", True, (200, 210, 230))
+        screen.blit(house_lbl, (175, legend_y))
+        
+        # 3. Pheromone Highway Indicator
+        pygame.draw.line(screen, (100, 25, 255), (300, legend_y + 7), (330, legend_y + 7), 4)
+        trail_lbl = font.render("Active Pheromone Path", True, (200, 210, 230))
+        screen.blit(trail_lbl, (340, legend_y))
+        
+        # 4. Record Shortcut Indicator
+        pygame.draw.line(screen, (240, 190, 60), (510, legend_y + 7), (540, legend_y + 7), 1)
+        record_lbl = font.render("All-Time Best Route Discovered", True, (200, 210, 230))
+        screen.blit(record_lbl, (550, legend_y))
+
         # Final Draw for controls
         for btn in buttons:
             btn.draw(screen, font)
